@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.button-background {
+
+    background: #dee2e6;
+    width: 150px;
+
+}
+
+.button-padding {
+
+    padding-top: 10px;    
+  
+}
+
+.myfont {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(43, 43, 43);
+}
+
+.centerButton {
+
+    display: flex;
+    justify-content: space-between; 
+  
+  
+}
+
+.spacer {
+
+    height: 250px;
+   
+    
+}
+
+
