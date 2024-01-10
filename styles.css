@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    align-items: center;
 }
 
 .button-background {
@@ -31,7 +32,7 @@
   
 }
 
-.spacer {
+.spacer { 
 
     height: 250px;
    
@@ -42,5 +43,35 @@
     display: flex;
     justify-content: center;
   
+}
+
+.responsive-text {
+    font-size: 1.2vw;
+    
+}
+
+
+.textCentered {
+    text-align: center;
+}
+
+.centerBio {
+
+    padding: 10px;
+    
+}
+
+.centerPic {
+
+    padding-top: 10px;
+    padding-right: 10px;
+    
+    
+}
+
+.centerVideo {
+
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 
 }
