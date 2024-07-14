@@ -1,0 +1,186 @@
+
+a{
+
+    cursor: default;
+}
+
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 7.5px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  color: #0f1111;
+  cursor: pointer;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+
+
+
+header {
+    text-align: center;
+    position: relative; /* Add this line */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 22.5px;
+    padding: 22.5px 0px 22.5px 0px;
+    margin: 0px 0px 0px 0px;
+    position: relative; /* Add this line */
+    z-index: 1; /* Add this line to ensure h1 is above the background */
+   color: #0f1111;
+}
+
+.background-gif {
+    position: absolute;
+    z-index: -1; /* Keeps the gif behind the h1 */
+    top: 40%; /* Center the image vertically */
+    left: 50%; /* Center the image horizontally */
+    transform: translate(-50%, -50%); /* Adjust positioning to center */
+    width: 250px; /* Adjust as needed to make the gif smaller */
+    height: 140.73px; /* Adjust as needed */
+}
+
+
+
+body {
+   
+    margin: 0px 0px 0px 0px;
+   
+}
+
+body, h2, p, button {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#0f1111;
+}
+
+.project-info h2 {
+    text-align: center;
+    padding: 0px 0px 7.5px 0px;
+    margin: 0;
+}
+
+img {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.project-info p {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+header {
+    text-align: center;
+}
+
+#projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(247.5px, 1fr)); 
+    gap: 22.5px;
+    padding: 0px 22.5px 22.5px 22.5px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+
+    
+
+    
+
+    border-radius: 7.5px;
+
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+
+    overflow: hidden;
+
+
+    border: 1px solid #d5d9d9;
+}
+
+
+.project-image1 {
+
+    border-bottom: 1px solid #d5d9d9;
+
+    object-fit: cover; 
+    width: 100%; 
+    height: 135px;
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+
+
+.project-info {
+    padding: 7.5px 7.5px 7.5px 7.5px; 
+    flex-grow: 1;
+
+  
+}
+
+
+.project-actions {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 0px 7.5px 0px; 
+    
+}
+
+
+.project-actions button {
+    flex: 1;
+    
+    margin: 0 0 0 0;
+    
+    padding: 7.5px 7.5px 7.5px 7.5px;
+    
+
+    
+}
+
+.project-actions .left-btn {
+    margin-left: 7.5px;
+    margin-right: 44.3px;
+}
+
+.project-actions .right-btn {
+    margin-left: 44.3px;
+    margin-right: 7.5px;
+}
+
+@media (max-width: 1200px) {
+    #projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    #projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    #projects-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
