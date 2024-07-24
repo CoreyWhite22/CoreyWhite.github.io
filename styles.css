@@ -23,7 +23,9 @@ a{
   outline: 0;
 }
 
-
+.button-13:not(:focus) {
+    border: 1px solid #d5d9d9;
+}
 
 
 header {
